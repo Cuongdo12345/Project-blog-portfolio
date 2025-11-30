@@ -145,7 +145,7 @@ const Navbar = () => {
           <NavLink href="#Skills">Kỹ năng</NavLink>
           <NavLink href="#Experience">Kinh nghiệm</NavLink>
           <NavLink href="#Projects">Dự án</NavLink>
-          {/* <NavLink href="#Education">Đào tạo</NavLink> */}
+          <NavLink href="https://drive.google.com/drive/folders/17zhTAQBiQrBM5ifqMBulvYVSNv6js--e?usp=sharing">Video Edit</NavLink>
         </NavItems>
 
         {isOpen && (
@@ -162,9 +162,9 @@ const Navbar = () => {
             <NavLink onClick={() => setIsOpen(!isOpen)} href="#Projects">
               Dự án
             </NavLink>
-            {/* <NavLink onClick={() => setIsOpen(!isOpen)} href="#Education">
-              Đào tạo
-            </NavLink> */}
+            <NavLink onClick={() => setIsOpen(!isOpen)} href="#Education">
+              Video Edit
+            </NavLink>
             <GithubButton
               href={Bio.github}
               target="_Blank"
