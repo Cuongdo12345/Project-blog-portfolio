@@ -39,10 +39,12 @@ const NavItems = styled.ul`
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   gap: 32px;
+  padding: 20px 40px;
   padding: 0 6px;
   list-style: none;
+  white-space: nowrap;
 
   @media screen and (max-width: 768px) {
     display: none;
@@ -107,7 +109,7 @@ const MobileMenu = styled.ul`
   display: flex;
   flex-direction: column;
   align-items: start;
-  gap: 16px;
+  gap: 20px;
   padding: 0 6px;
   list-style: none;
   width: 100%;
@@ -132,37 +134,37 @@ const Navbar = () => {
   return (
     <Nav>
       <NavbarContainer>
-        <NavLogo to="/">GeeksForGeeks</NavLogo>
+        <NavLogo to="/">PORTFOLIO</NavLogo>
 
         <MobileIcon onClick={() => setIsOpen(!isOpen)}>
           <MenuRounded style={{ color: "inherit" }} />
         </MobileIcon>
 
         <NavItems>
-          <NavLink href="#About">About</NavLink>
-          <NavLink href="#Skills">Skills</NavLink>
-          <NavLink href="#Experience">Experience</NavLink>
-          <NavLink href="#Projects">Projects</NavLink>
-          <NavLink href="#Education">Education</NavLink>
+          <NavLink href="#About">Về tôi</NavLink>
+          <NavLink href="#Skills">Kỹ năng</NavLink>
+          <NavLink href="#Experience">Kinh nghiệm</NavLink>
+          <NavLink href="#Projects">Dự án</NavLink>
+          {/* <NavLink href="#Education">Đào tạo</NavLink> */}
         </NavItems>
 
         {isOpen && (
           <MobileMenu isOpen={isOpen}>
             <NavLink onClick={() => setIsOpen(!isOpen)} href="#About">
-              About
+              Về tôi
             </NavLink>
             <NavLink onClick={() => setIsOpen(!isOpen)} href="#Skills">
-              Skills
+              Kỹ năng
             </NavLink>
             <NavLink onClick={() => setIsOpen(!isOpen)} href="#Experience">
-              Experience
+              Kinh nghiệm
             </NavLink>
             <NavLink onClick={() => setIsOpen(!isOpen)} href="#Projects">
-              Projects
+              Dự án
             </NavLink>
-            <NavLink onClick={() => setIsOpen(!isOpen)} href="#Education">
-              Education
-            </NavLink>
+            {/* <NavLink onClick={() => setIsOpen(!isOpen)} href="#Education">
+              Đào tạo
+            </NavLink> */}
             <GithubButton
               href={Bio.github}
               target="_Blank"
@@ -171,14 +173,14 @@ const Navbar = () => {
                 color: theme.text_primary,
               }}
             >
-              Github Profile
+              Github
             </GithubButton>
           </MobileMenu>
         )}
 
         <ButtonContainer>
           <GithubButton href={Bio.github} target="_Blank">
-            Github Profile
+            Github
           </GithubButton>
         </ButtonContainer>
       </NavbarContainer>

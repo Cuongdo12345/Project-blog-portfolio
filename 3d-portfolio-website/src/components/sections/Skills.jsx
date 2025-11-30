@@ -119,14 +119,13 @@ const Skills = () => {
   return (
     <Container id="Skills">
       <Wrapper>
-        <Title>Skills</Title>
+        <Title>Kỹ năng</Title>
         <Desc
           style={{
             marginBottom: "40px",
           }}
         >
-          Here are some of my skills on which I have been working on for the
-          past 3 years.
+          Với hơn 2 năm kinh nghiệm làm việc tại một số công ty, bệnh viện tôi đã tích lũy được nhiều kỹ năng quan trọng trong lĩnh vực này.
         </Desc>
 
         <SkillsContainer>

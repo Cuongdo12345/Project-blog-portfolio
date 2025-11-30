@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Bio } from "../../data/constants";
 import Typewriter from "typewriter-effect";
-import HeroImg from "../../images/HeroImage.jpg";
+//import HeroImg from "../../images/CuongImage.jpg";
 import HeroBgAnimation from "../HeroBgAnimation";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
@@ -229,10 +229,10 @@ const Hero = () => {
             <HeroLeftContainer>
               <motion.div {...headTextAnimation}>
                 <Title>
-                  Hi, I am <br /> {Bio.name}
+                  Hi, Tôi tên <br /> {Bio.name}
                 </Title>
                 <TextLoop>
-                  I am a
+                  {/* Hiện tại là */}
                   <Span>
                     <Typewriter
                       options={{
@@ -250,13 +250,14 @@ const Hero = () => {
               </motion.div>
 
               <ResumeButton href={Bio.resume} target="_blank">
-                Check Resume
+                CV của tôi
               </ResumeButton>
             </HeroLeftContainer>
             <HeroRightContainer>
               <motion.div {...headContentAnimation}>
                 <Tilt>
-                  <Img src={HeroImg} alt="Rishav Chanda" />
+                  {/* <Img src={HeroImg} alt="Rishav Chanda" /> */}
+                  <Img src= "https://lh4.googleusercontent.com/d/1PzAvu8uy5021XYPnmOqcU3pKM4Y-I0Kb" alt="Rishav Chanda" />
                 </Tilt>
               </motion.div>
             </HeroRightContainer>

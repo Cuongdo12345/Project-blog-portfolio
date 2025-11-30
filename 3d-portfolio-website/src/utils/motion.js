@@ -43,9 +43,9 @@ export const headTextAnimation = {
   transition: {
     type: "spring",
     damping: 5,
-    stiffness: 40,
+    stiffness: 30,
     restDelta: 0.001,
-    duration: 0.3,
+    duration: 0.2,
   },
 };
 

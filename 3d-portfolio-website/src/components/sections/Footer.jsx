@@ -4,8 +4,8 @@ import { Bio } from "../../data/constants";
 import {
   FacebookRounded,
   Instagram,
-  LinkedIn,
-  Twitter,
+  // LinkedIn,
+  // Twitter,
 } from "@mui/icons-material";
 
 const FooterContainer = styled.div`
@@ -84,29 +84,29 @@ const Footer = () => {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Rishav Chanda</Logo>
+        <Logo>Đỗ Mạnh Cường</Logo>
         <Nav>
-          <NavLink href="#About">About</NavLink>
-          <NavLink href="#Skills">Skills</NavLink>
-          <NavLink href="#Experience">Experience</NavLink>
-          <NavLink href="#Projects">Projects</NavLink>
-          <NavLink href="#Education">Education</NavLink>
+          <NavLink href="#About">Về tôi</NavLink>
+          <NavLink href="#Skills">Kỹ năng</NavLink>
+          <NavLink href="#Experience">Kinh nghiệm</NavLink>
+          <NavLink href="#Projects">Dự án</NavLink>
+          <NavLink href="#Education">Liên hệ</NavLink>
         </Nav>
         <SocialMediaIcons>
           <SocialMediaIcon href={Bio.facebook} target="display">
             <FacebookRounded />
           </SocialMediaIcon>
-          <SocialMediaIcon href={Bio.twitter} target="display">
+          {/* <SocialMediaIcon href={Bio.twitter} target="display">
             <Twitter />
           </SocialMediaIcon>
           <SocialMediaIcon href={Bio.linkedin} target="display">
             <LinkedIn />
-          </SocialMediaIcon>
+          </SocialMediaIcon> */}
           <SocialMediaIcon href={Bio.insta} target="display">
             <Instagram />
           </SocialMediaIcon>
         </SocialMediaIcons>
-        <Copyright>&copy; 2024 Rishav Chanda. All rights reserved.</Copyright>
+        <Copyright>&copy; 2025 Đỗ Mạnh Cường. All rights reserved.</Copyright>
       </FooterWrapper>
     </FooterContainer>
   );
