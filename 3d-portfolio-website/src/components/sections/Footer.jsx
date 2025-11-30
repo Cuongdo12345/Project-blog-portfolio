@@ -90,7 +90,7 @@ const Footer = () => {
           <NavLink href="#Skills">Kỹ năng</NavLink>
           <NavLink href="#Experience">Kinh nghiệm</NavLink>
           <NavLink href="#Projects">Dự án</NavLink>
-          <NavLink href="#Education">Liên hệ</NavLink>
+          <NavLink href="https://drive.google.com/drive/folders/17zhTAQBiQrBM5ifqMBulvYVSNv6js--e?usp=sharing">Video Edit</NavLink>
         </Nav>
         <SocialMediaIcons>
           <SocialMediaIcon href={Bio.facebook} target="display">

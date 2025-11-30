@@ -162,7 +162,7 @@ const Navbar = () => {
             <NavLink onClick={() => setIsOpen(!isOpen)} href="#Projects">
               Dự án
             </NavLink>
-            <NavLink onClick={() => setIsOpen(!isOpen)} href="#Education">
+            <NavLink onClick={() => setIsOpen(!isOpen)} href="https://drive.google.com/drive/folders/17zhTAQBiQrBM5ifqMBulvYVSNv6js--e?usp=sharing">
               Video Edit
             </NavLink>
             <GithubButton
