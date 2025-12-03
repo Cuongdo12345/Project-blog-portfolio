@@ -7,7 +7,7 @@ export const Bio = {
   ],
 
   description:
-    "Mình học ngành CNTT và cũng như bao người khác từ lúc mới tốt nghiệp. Bước chân vào thị trường công việc cũng nhiều bỡ ngỡ và đã trải qua không ít khó khăn, thử thách, thậm chí có những lúc muốn bỏ cuộc. Nhưng chính những trải nghiệm đó giúp mình trưởng thành hơn, kiên trì hơn và tìm lại được động lực cho mình. Đến hiện tại, mọi thứ đã ổn định hơn và tôi tự tin tiếp tục bước đi trên con đường đã chọn.",
+    "Tôi học ngành CNTT và cũng như bao người khác từ lúc mới tốt nghiệp, chập chững bước chân vào thị trường công việc cũng nhiều bỡ ngỡ và đã trải qua không ít khó khăn, thử thách, thậm chí có những lúc muốn bỏ cuộc. Nhưng chính những trải nghiệm đó giúp tôi trưởng thành hơn, kiên trì hơn và tìm lại được động lực cho mình. Đến hiện tại, mọi thứ đã ổn định hơn và tôi tự tin tiếp tục bước đi trên con đường đã chọn.",
   github: "https://github.com/Cuongdo12345",
   resume:
     "https://drive.google.com/file/d/1F-pLnwdhBdd9lmpvdEt18Gm1fb8RDL9h/view?usp=sharing",
@@ -224,7 +224,7 @@ export const experiences = [
     role: "Backend Intern",
     company: "Công ty phần mềm Joytech",
     date: "Tháng 8/2022",
-    desc: "Mình bắt đầu đi thử việc tại công ty Joytech. Lần đầu tiên tôi tiếp xúc với môi trường làm việc thực tế đúng chuyên ngành, Trong quá trình thực tập, tôi được tham gia vào các nhiệm vụ nhỏ trong dự án, học cách làm việc theo quy trình và phối hợp với đội ngũ kỹ thuật",
+    desc: "Tôi bắt đầu đi thử việc tại công ty Joytech. Lần đầu tiên tôi tiếp xúc với môi trường làm việc thực tế đúng chuyên ngành, Trong quá trình thực tập, tôi được tham gia vào các nhiệm vụ nhỏ trong dự án, học cách làm việc theo quy trình và phối hợp với đội ngũ kỹ thuật",
     skills: [
       "NodeJs",
       "MongoDB",
@@ -242,7 +242,7 @@ export const experiences = [
     role: "Backend Developer",
     company: "Công viên phần mềm quân đội ASP",
     date: "Tháng 7/2023 - 2024",
-    desc: "Sau đó, mình tiếp tục thử sức tại Công ty Phần mềm Quân đội. Môi trường ở đây chuyên nghiệp và kỷ luật hơn, giúp mình rèn luyện tác phong làm việc nghiêm túc và nâng cao kỹ năng chuyên môn. Những trải nghiệm này cho mình cái nhìn rõ hơn về con đường IT mà mình muốn theo đuổi.",
+    desc: "Sau đó, tôi tiếp tục thử sức tại Công ty Phần mềm Quân đội. Môi trường ở đây chuyên nghiệp và kỷ luật hơn, giúp tôi rèn luyện tác phong làm việc nghiêm túc và nâng cao kỹ năng chuyên môn. Những trải nghiệm này cho tôi cái nhìn rõ hơn về con đường IT mà mình muốn theo đuổi.",
     skills: [
       "JavaScript",
       "TypeScript",
@@ -258,7 +258,7 @@ export const experiences = [
     role: "Support IT Helpdesk",
     company: "Công ty TNHH Alibu Resort",
     date: "Tháng 7/2024 - 6/2025",
-    desc: "Tuy nhiên trong khoảng thời gian làm, công việc chưa thật sự phù hợp khiến mình cảm thấy ngột ngạt, nên mình quyết định chuyển hướng sang một công ty resort du lịch để tìm kiếm trải nghiệm mới và thử thách bản thân ở lĩnh vực khác.",
+    desc: "Tuy nhiên trong khoảng thời gian làm, công việc chưa thật sự phù hợp khiến mình cảm thấy ngột ngạt, nên tôi quyết định chuyển hướng sang một công ty resort du lịch để tìm kiếm trải nghiệm mới và thử thách bản thân ở lĩnh vực khác.",
     skills: [
       "Hardware Troubleshooting",
       "Internet Connectivity",
@@ -272,7 +272,7 @@ export const experiences = [
     role: "IT System Support",
     company: "Bệnh viện Đa khoa Sài Gòn - Nha Trang",
     date: "Tháng 8/2025 - 10/2025",
-    desc: "Sau khoảng thời gian làm ở Resort du lịch mình muốn tìm kiếm sự ổn định hơn về sự nghiệp, nên mình lại tiếp tục sang bệnh viện làm IT thử việc trong 2 tháng, nơi giúp mình hiểu hơn về hệ thống công nghệ trong môi trường đặc thù và ổn định hơn.",
+    desc: "Sau khoảng thời gian làm ở Resort du lịch tôi muốn tìm kiếm sự ổn định hơn về sự nghiệp, nên tôi lại tiếp tục sang bệnh viện làm IT thử việc trong 2 tháng, nơi giúp tôi hiểu hơn về hệ thống công nghệ trong môi trường đặc thù và ổn định hơn.",
     skills: [
       "Hardware Troubleshooting",
       "Internet Connectivity",
@@ -287,7 +287,7 @@ export const experiences = [
     role: "IT System Support",
     company: "Bệnh viện Y học Cổ truyền Và Phục hồi Chức năng Khánh Hòa",
     date: "Tháng 11/2025 - Hiện tại",
-    desc: "Sau khi kết thúc 2 tháng thử việc, mình quay về làm tại Bệnh viện Y học Cổ truyền. Môi trường nơi đây ổn định và phù hợp hơn với định hướng của mình. Mình hy vọng đây sẽ là nơi mình có thể gắn bó lâu dài và xây dựng một chặng đường sự nghiệp vững chắc cho bản thân.",
+    desc: "Sau khi kết thúc 2 tháng thử việc, tôi phỏng vấn và bắt đầu làm tại Bệnh viện Y học Cổ truyền Khánh Hòa. Môi trường nơi đây ổn định và phù hợp hơn với định hướng của tôi. Tôi hy vọng đây sẽ là nơi mình có thể gắn bó lâu dài và xây dựng một chặng đường sự nghiệp vững chắc cho bản thân.",
      skills: [
       "Hardware Troubleshooting",
       "Internet Connectivity",
