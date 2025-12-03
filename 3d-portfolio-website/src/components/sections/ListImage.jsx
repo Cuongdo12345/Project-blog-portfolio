@@ -68,7 +68,7 @@ const QuiltedImageList =()=> {
           Một số hình ảnh về cuộc sống và công việc thường ngày của tôi.
         </Desc>
           <ImageList
-      sx={{ width: 600, height: 600 }}
+      sx={{ width: 500, height: 450 }}
       variant="quilted"
       cols={4}
       rowHeight={121}
