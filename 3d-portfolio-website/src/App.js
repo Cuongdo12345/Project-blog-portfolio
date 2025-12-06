@@ -9,6 +9,7 @@ import StartCanvas from "./components/canvas/Stars";
 import Projects from "./components/sections/Projects";
 import Footer from "./components/sections/Footer";
 import SliderImg from "./components/sections/SliderImg";
+import Music from "./components/sections/Music";
 // import Education from "./components/sections/Education";
 // import Contact from "./components/sections/Contact";
 // import ListImage from "./components/sections/ListImage";
@@ -45,6 +46,7 @@ function App() {
         <Body>
           <StartCanvas />
           <div>
+            {<Music/>}
             <Hero />
             <Wrapper>
               <Skills />
@@ -53,7 +55,6 @@ function App() {
             <Projects />
             <Wrapper>
                {<SliderImg/>}
-               {/* {<SliderVideo/>} */}
             </Wrapper>
 
             <Footer />

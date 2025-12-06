@@ -229,7 +229,7 @@ const Hero = () => {
             <HeroLeftContainer>
               <motion.div {...headTextAnimation}>
                 <Title>
-                  Hi, Tôi tên <br /> {Bio.name}
+                  Xin chào!, Tôi tên <br /> {Bio.name}
                 </Title>
                 <TextLoop>
                   {/* Hiện tại là */}
